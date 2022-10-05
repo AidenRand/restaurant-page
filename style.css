@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.363)),
+    url(/dist/photos/STScI-01GA6KNV1S3TP2JBPCDT8G826T.jpg);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 170px;
+  background-color: rgba(0, 0, 0, 0.822);
+}
+
+.title {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.links {
+  display: flex;
+  gap: 80px;
+}
+
+.link > a {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1.2rem;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.link {
+  background: none;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
+  transition: 0.2s ease-in-out;
+  padding-bottom: 5px;
+}
+
+.link:hover {
+  border-bottom: 2px solid white;
+}
+
+.frontPage {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.822);
+    width: 500px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.frontText {
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.frontEst {
+    color: white;
+}
+
+.mugPhoto {
+    margin-top: 30px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.623);
+    color: white;
+    height: 40px;
+    width: 100vw;
+    position: relative;
+    top: 87px;
+
+}
