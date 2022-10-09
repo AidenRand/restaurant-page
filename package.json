@@ -4,7 +4,8 @@
   "description": "first time using webpack in project | 10:10am | 10-4-2022 | this is a restaurant page made purely with javascript and css.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
