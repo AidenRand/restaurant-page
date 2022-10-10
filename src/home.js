@@ -21,7 +21,7 @@ function createHome() {
 
   const frontText2 = document.createElement("p");
   frontText2.textContent =
-    "Order through space mail or visit us on planet Coffea in galctic system Genus";
+    "Order through space mail or visit us on planet Coffea in galatic system Genus";
   frontText2.className = "frontText2";
 
   frontPage.appendChild(frontText1);
@@ -29,8 +29,6 @@ function createHome() {
   frontPage.appendChild(frontImg);
   frontPage.appendChild(frontText2);
   home.appendChild(frontPage);
-  content.appendChild(home);
-
   return home;
 }
 
