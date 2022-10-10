@@ -4,9 +4,10 @@
 }
 
 :root {
-  --primary: rgb(157, 209, 193);
-  --primary2: rgb(108, 207, 178);
+  --primary: rgb(183, 241, 224);
+  --primary2: rgb(158, 231, 209);
   --primary3: rgb(61, 133, 111);
+  --primary4: rgb(79, 148, 127);
   --secondary: rgb(199, 71, 88);
   --secondary2: rgb(226, 98, 115);
 }
@@ -38,21 +39,24 @@ body {
   align-items: center;
   flex-direction: column;
   height: 230px;
+  background-color: var(--primary2);
+  border-bottom: 3px solid var(--primary);
 }
 
 .title {
   font-size: 5.5rem;
   color: var(--secondary);
   margin-bottom: 40px;
-  font-family: 'retro-diner';
+  font-family: 'retro-diner', sans-serif;
+  text-shadow: 0px 0px 3px;
 }
 
 button > a {
   text-decoration: none;
   padding: 30px;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   color: var(--secondary);
-  font-family: 'Poppins', sans-serif;
+  font-family: 'retro-diner', sans-serif;
   background: none;
 }
 
@@ -71,27 +75,29 @@ button:hover {
 .frontPage {
   display: flex;
   flex-direction: column;
-  font-size: 2rem;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.822);
+  background-color: var(--primary2);
+  border: 3px solid var(--primary3);
+  border-radius: 20px;
   width: 700px;
-  height: 620px;
+  height: 600px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 65px;
-  font-family: 'Poppins', sans-serif;
+  margin-top: 55px;
+  margin-bottom: 80px;
+  font-family: 'retro-diner', sans-serif;
+  padding: 20px;
 }
 
 .frontText1 {
-  color: white;
-  margin-top: 50px;
+  color: var(--secondary);
   margin-bottom: 10px;
-  font-size: 1.7rem;
+  font-size: 3rem;
 }
 
 .frontEst {
-  color: white;
-  font-size: 1.7rem;
+  color: var(--secondary);
+  font-size: 2.5rem;
 }
 
 .frontImg {
@@ -101,9 +107,9 @@ button:hover {
 }
 
 .frontText2 {
-  color: white;
+  color: var(--secondary);
   margin-top: 30px;
-  font-size: 1.4rem;
+  font-size: 2rem;
   text-align: center;
   padding-left: 50px;
   padding-right: 50px;
@@ -113,13 +119,11 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--primary2);
+  background-color: var(--primary3);
   color: white;
   height: 40px;
   width: 100%;
-  position: fixed;
-  bottom: 0;
-  left: 0;
+  margin-top: auto;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -138,5 +142,46 @@ button:hover {
   background-color: var(--primary2);
   padding: 50px;
   border-radius: 20px;
-  border: 2px solid var(--primary3);
+  border: 3px solid var(--primary3);
+  margin-bottom: 70px;
+  margin-top: 65px;
 }
+
+/* Contact page */
+.contactDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 640px;
+  background-color: var(--primary2);
+  font-size: 2rem;
+  font-family: 'retro-diner';
+  color: var(--secondary);
+  margin-bottom: 60px;
+  margin-top: 20px;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 3px solid var(--primary3);
+  border-radius: 20px;
+}
+
+.contText1 {
+  font-size: 2.5rem;
+}
+
+.contText2 {
+  font-size: 2.5rem;
+} 
+
+.contImg {
+  width: 590px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+
